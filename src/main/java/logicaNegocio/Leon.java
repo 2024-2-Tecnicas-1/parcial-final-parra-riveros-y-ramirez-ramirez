@@ -12,14 +12,12 @@ public class Leon extends Animal {
         return "Rugido"; 
     }
 
-    @Override
-    public String ObtenerDieta() {
+    
+    public String obtenerDieta() {
         return "Carnívoro";
     }
 
-    public TipoHabitat getHabitat() {
-        return habitat;
-    }
+  
     
 }
 
