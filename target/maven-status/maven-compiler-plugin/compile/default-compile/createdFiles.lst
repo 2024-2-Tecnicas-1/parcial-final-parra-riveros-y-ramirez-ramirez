@@ -1,3 +1,13 @@
+<<<<<<< Updated upstream
 logicaNegocio\Delfin.class
 logicaNegocio\Domestico.class
 logicaNegocio\TipoHabitat.class
+=======
+logicaNegocio\Animal.class
+logicaNegocio\TipoHabitat.class
+logicaNegocio\Domestico.class
+logicaNegocio\Leon.class
+logicaNegocio\TipoHabitat$TERRESTRE.class
+logicaNegocio\Delfin.class
+logicaNegocio\Perro.class
+>>>>>>> Stashed changes
