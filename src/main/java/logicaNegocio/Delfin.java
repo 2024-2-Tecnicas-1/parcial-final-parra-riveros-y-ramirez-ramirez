@@ -1,6 +1,8 @@
 package logicaNegocio;
 
 public class Delfin extends Animal{
+    
+    private TipoHabitat habitat;
 
     private TipoHabitat habitat;
 
@@ -8,11 +10,20 @@ public class Delfin extends Animal{
         this.habitat = TipoHabitat.ACUATICO;
     }
 
-    @Override
+    
     public String emitirSonido() {
         return "Chirrido";
     }
 
+<<<<<<< Updated upstream
+=======
+    
+    public String obtenerDieta() {
+        return "Pescado";  
+        
+    }
+
+>>>>>>> Stashed changes
     public TipoHabitat getHabitat() {
         return habitat;
     }

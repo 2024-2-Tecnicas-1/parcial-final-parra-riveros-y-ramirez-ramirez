@@ -9,7 +9,11 @@ public abstract class Animal {
     }
     
    public TipoHabitat getHabitat(){
+<<<<<<< Updated upstream
         TipoHabitat habitat = null;
+=======
+       TipoHabitat habitat = null;
+>>>>>>> Stashed changes
        return habitat;
    }
 }
