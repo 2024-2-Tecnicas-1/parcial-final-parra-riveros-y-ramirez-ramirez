@@ -1,11 +1,19 @@
 package logicaNegocio;
 
-public class Leon extends Animal{
-    
-    this.TipoHabitat.TERRESTRE;
-    
-}
-public String emitirSonido(){
-    return "rugido";
+class Leon extends Animal {
+  
+    public Leon() {
+        super(); 
+    }
+
+    @Override
+    public String emitirSonido() {
+        return "Rugido"; 
+    }
+
+    @Override
+    public String ObtenerDieta() {
+        return "carnivoro";
+    }
 }
 
