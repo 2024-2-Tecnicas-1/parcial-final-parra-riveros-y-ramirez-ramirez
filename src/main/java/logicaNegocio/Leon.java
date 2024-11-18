@@ -12,7 +12,7 @@ public class Leon extends Animal {
         return "Rugido"; 
     }
 
-    
+    @Override
     public String obtenerDieta() {
         return "Carnívoro";
     }
